@@ -1,0 +1,59 @@
+; Top Design: "lab1_lib:cell_1:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="lab1_lib:cell_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+V_Source:SRC1  N__8 0 Type="V_AC" Vdc=0.0 V Vac=polar(1,0) V Freq=f1 GHz V_Noise=0 uV SaveCurrent=1 
+R:R1  N__8 N__1 R=50 Ohm Noise=yes 
+TLINP:TL1  N__1 v_short Z=50.0 Ohm L=(300-l1) mm K=1 A=0.0001 F=f1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+TLINP:TL2  v_short N__9 Z=50.0 Ohm L=l1 mm K=1 A=0.0001 F=f1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+R:R2  N__9 0 R=0 Ohm Noise=yes 
+
+f1=2.0
+
+l1=0.1
+AC:AC1 CalcNoise=no SortNoise=0 IncludePortNoise=yes BandwidthForNoise=1 Hz FreqConversion=no UseFiniteDiff=no StatusLevel=2 OutputBudgetIV=no DevOpPtLevel=0 \
+OutputPlan="AC1_Output" Freq=f1 GHz 
+
+OutputPlan:AC1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+ParamSweep:Sweep1 SimInstanceName[1]="AC1" StatusLevel=2 SweepVar="l1" SweepPlan="Sweep1_stim" 
+
+SweepPlan: Sweep1_stim Start=0 Stop=300 Step=1 
+
+V_Source:SRC2  N__5 0 Type="V_AC" Vdc=0.0 V Vac=polar(1,0) V Freq=f1 GHz V_Noise=0 uV SaveCurrent=1 
+Port:Term1  N__2 0 Num=1 Z=100 MOhm Noise=yes 
+R:R4  N__5 N__3 R=50 Ohm Noise=yes 
+TLINP:TL3  v_open N__2 Z=50.0 Ohm L=l1 mm K=1 A=0.0001 F=f1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+TLINP:TL4  N__3 v_open Z=50.0 Ohm L=(300-l1) mm K=1 A=0.0001 F=f1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+V_Source:SRC3  N__10 0 Type="V_AC" Vdc=0.0 V Vac=polar(1,0) V Freq=f1 GHz V_Noise=0 uV SaveCurrent=1 
+R:R5  N__0 0 R=50 Ohm Noise=yes 
+R:R6  N__10 N__4 R=50 Ohm Noise=yes 
+TLINP:TL5  v_match N__0 Z=50.0 Ohm L=l1 mm K=1 A=0.0001 F=f1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+TLINP:TL6  N__4 v_match Z=50.0 Ohm L=(300-l1) mm K=1 A=0.0001 F=f1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+V_Source:SRC4  N__13 0 Type="V_AC" Vdc=0.0 V Vac=polar(1,0) V Freq=f1 GHz V_Noise=0 uV SaveCurrent=1 
+S_Port:S1P1  N__12 N__20 Z[1]=j*100 
+R:R8  N__13 N__11 R=50 Ohm Noise=yes 
+TLINP:TL7  v_pureX N__19 Z=50.0 Ohm L=l1 mm K=1 A=0.0001 F=f1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+TLINP:TL8  N__11 v_pureX Z=50.0 Ohm L=(300-l1) mm K=1 A=0.0001 F=f1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+V_Source:SRC5  N__16 0 Type="V_AC" Vdc=0.0 V Vac=polar(1,0) V Freq=f1 GHz V_Noise=0 uV SaveCurrent=1 
+Port:Term2  N__15 0 Num=2 Z=30+j*40 Noise=yes 
+R:R10  N__16 N__14 R=50 Ohm Noise=yes 
+TLINP:TL9  v_anyZ N__15 Z=50.0 Ohm L=l1 mm K=1 A=0.0001 F=f1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+TLINP:TL10  N__14 v_anyZ Z=50.0 Ohm L=(300-l1) mm K=1 A=0.0001 F=f1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+Port:Term3  N__19 0 Num=3 Z=0.01+j*100 Noise=yes 

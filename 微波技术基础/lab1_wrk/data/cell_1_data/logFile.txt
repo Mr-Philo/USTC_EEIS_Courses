@@ -1,0 +1,917 @@
+
+hpeesofsim (*) 490.shp Nov 12 2018, MINT version 4
+    (64-bit windows built: Tue Nov 13, 2018 02:20:54 +0000)
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 2
+    Number of nodes with no DC path to ground (topology corrected): 2
+
+
+CT Sweep1[1] <lab1_lib:cell_1:schematic>   l1=(0->300)
+
+AC Sweep1[1].AC1[1/301] <lab1_lib:cell_1:schematic>  l1=0  freq=2 GHz
+
+
+AC Sweep1[1].AC1[2/301] <lab1_lib:cell_1:schematic>  l1=1  freq=2 GHz
+
+
+AC Sweep1[1].AC1[3/301] <lab1_lib:cell_1:schematic>  l1=2  freq=2 GHz
+
+
+AC Sweep1[1].AC1[4/301] <lab1_lib:cell_1:schematic>  l1=3  freq=2 GHz
+
+
+AC Sweep1[1].AC1[5/301] <lab1_lib:cell_1:schematic>  l1=4  freq=2 GHz
+
+
+AC Sweep1[1].AC1[6/301] <lab1_lib:cell_1:schematic>  l1=5  freq=2 GHz
+
+
+AC Sweep1[1].AC1[7/301] <lab1_lib:cell_1:schematic>  l1=6  freq=2 GHz
+
+
+AC Sweep1[1].AC1[8/301] <lab1_lib:cell_1:schematic>  l1=7  freq=2 GHz
+
+
+AC Sweep1[1].AC1[9/301] <lab1_lib:cell_1:schematic>  l1=8  freq=2 GHz
+
+
+AC Sweep1[1].AC1[10/301] <lab1_lib:cell_1:schematic>  l1=9  freq=2 GHz
+
+
+AC Sweep1[1].AC1[11/301] <lab1_lib:cell_1:schematic>  l1=10  freq=2 GHz
+
+
+AC Sweep1[1].AC1[12/301] <lab1_lib:cell_1:schematic>  l1=11  freq=2 GHz
+
+
+AC Sweep1[1].AC1[13/301] <lab1_lib:cell_1:schematic>  l1=12  freq=2 GHz
+
+
+AC Sweep1[1].AC1[14/301] <lab1_lib:cell_1:schematic>  l1=13  freq=2 GHz
+
+
+AC Sweep1[1].AC1[15/301] <lab1_lib:cell_1:schematic>  l1=14  freq=2 GHz
+
+
+AC Sweep1[1].AC1[16/301] <lab1_lib:cell_1:schematic>  l1=15  freq=2 GHz
+
+
+AC Sweep1[1].AC1[17/301] <lab1_lib:cell_1:schematic>  l1=16  freq=2 GHz
+
+
+AC Sweep1[1].AC1[18/301] <lab1_lib:cell_1:schematic>  l1=17  freq=2 GHz
+
+
+AC Sweep1[1].AC1[19/301] <lab1_lib:cell_1:schematic>  l1=18  freq=2 GHz
+
+
+AC Sweep1[1].AC1[20/301] <lab1_lib:cell_1:schematic>  l1=19  freq=2 GHz
+
+
+AC Sweep1[1].AC1[21/301] <lab1_lib:cell_1:schematic>  l1=20  freq=2 GHz
+
+
+AC Sweep1[1].AC1[22/301] <lab1_lib:cell_1:schematic>  l1=21  freq=2 GHz
+
+
+AC Sweep1[1].AC1[23/301] <lab1_lib:cell_1:schematic>  l1=22  freq=2 GHz
+
+
+AC Sweep1[1].AC1[24/301] <lab1_lib:cell_1:schematic>  l1=23  freq=2 GHz
+
+
+AC Sweep1[1].AC1[25/301] <lab1_lib:cell_1:schematic>  l1=24  freq=2 GHz
+
+
+AC Sweep1[1].AC1[26/301] <lab1_lib:cell_1:schematic>  l1=25  freq=2 GHz
+
+
+AC Sweep1[1].AC1[27/301] <lab1_lib:cell_1:schematic>  l1=26  freq=2 GHz
+
+
+AC Sweep1[1].AC1[28/301] <lab1_lib:cell_1:schematic>  l1=27  freq=2 GHz
+
+
+AC Sweep1[1].AC1[29/301] <lab1_lib:cell_1:schematic>  l1=28  freq=2 GHz
+
+
+AC Sweep1[1].AC1[30/301] <lab1_lib:cell_1:schematic>  l1=29  freq=2 GHz
+
+
+AC Sweep1[1].AC1[31/301] <lab1_lib:cell_1:schematic>  l1=30  freq=2 GHz
+
+
+AC Sweep1[1].AC1[32/301] <lab1_lib:cell_1:schematic>  l1=31  freq=2 GHz
+
+
+AC Sweep1[1].AC1[33/301] <lab1_lib:cell_1:schematic>  l1=32  freq=2 GHz
+
+
+AC Sweep1[1].AC1[34/301] <lab1_lib:cell_1:schematic>  l1=33  freq=2 GHz
+
+
+AC Sweep1[1].AC1[35/301] <lab1_lib:cell_1:schematic>  l1=34  freq=2 GHz
+
+
+AC Sweep1[1].AC1[36/301] <lab1_lib:cell_1:schematic>  l1=35  freq=2 GHz
+
+
+AC Sweep1[1].AC1[37/301] <lab1_lib:cell_1:schematic>  l1=36  freq=2 GHz
+
+
+AC Sweep1[1].AC1[38/301] <lab1_lib:cell_1:schematic>  l1=37  freq=2 GHz
+
+
+AC Sweep1[1].AC1[39/301] <lab1_lib:cell_1:schematic>  l1=38  freq=2 GHz
+
+
+AC Sweep1[1].AC1[40/301] <lab1_lib:cell_1:schematic>  l1=39  freq=2 GHz
+
+
+AC Sweep1[1].AC1[41/301] <lab1_lib:cell_1:schematic>  l1=40  freq=2 GHz
+
+
+AC Sweep1[1].AC1[42/301] <lab1_lib:cell_1:schematic>  l1=41  freq=2 GHz
+
+
+AC Sweep1[1].AC1[43/301] <lab1_lib:cell_1:schematic>  l1=42  freq=2 GHz
+
+
+AC Sweep1[1].AC1[44/301] <lab1_lib:cell_1:schematic>  l1=43  freq=2 GHz
+
+
+AC Sweep1[1].AC1[45/301] <lab1_lib:cell_1:schematic>  l1=44  freq=2 GHz
+
+
+AC Sweep1[1].AC1[46/301] <lab1_lib:cell_1:schematic>  l1=45  freq=2 GHz
+
+
+AC Sweep1[1].AC1[47/301] <lab1_lib:cell_1:schematic>  l1=46  freq=2 GHz
+
+
+AC Sweep1[1].AC1[48/301] <lab1_lib:cell_1:schematic>  l1=47  freq=2 GHz
+
+
+AC Sweep1[1].AC1[49/301] <lab1_lib:cell_1:schematic>  l1=48  freq=2 GHz
+
+
+AC Sweep1[1].AC1[50/301] <lab1_lib:cell_1:schematic>  l1=49  freq=2 GHz
+
+
+AC Sweep1[1].AC1[51/301] <lab1_lib:cell_1:schematic>  l1=50  freq=2 GHz
+
+
+AC Sweep1[1].AC1[52/301] <lab1_lib:cell_1:schematic>  l1=51  freq=2 GHz
+
+
+AC Sweep1[1].AC1[53/301] <lab1_lib:cell_1:schematic>  l1=52  freq=2 GHz
+
+
+AC Sweep1[1].AC1[54/301] <lab1_lib:cell_1:schematic>  l1=53  freq=2 GHz
+
+
+AC Sweep1[1].AC1[55/301] <lab1_lib:cell_1:schematic>  l1=54  freq=2 GHz
+
+
+AC Sweep1[1].AC1[56/301] <lab1_lib:cell_1:schematic>  l1=55  freq=2 GHz
+
+
+AC Sweep1[1].AC1[57/301] <lab1_lib:cell_1:schematic>  l1=56  freq=2 GHz
+
+
+AC Sweep1[1].AC1[58/301] <lab1_lib:cell_1:schematic>  l1=57  freq=2 GHz
+
+
+AC Sweep1[1].AC1[59/301] <lab1_lib:cell_1:schematic>  l1=58  freq=2 GHz
+
+
+AC Sweep1[1].AC1[60/301] <lab1_lib:cell_1:schematic>  l1=59  freq=2 GHz
+
+
+AC Sweep1[1].AC1[61/301] <lab1_lib:cell_1:schematic>  l1=60  freq=2 GHz
+
+
+AC Sweep1[1].AC1[62/301] <lab1_lib:cell_1:schematic>  l1=61  freq=2 GHz
+
+
+AC Sweep1[1].AC1[63/301] <lab1_lib:cell_1:schematic>  l1=62  freq=2 GHz
+
+
+AC Sweep1[1].AC1[64/301] <lab1_lib:cell_1:schematic>  l1=63  freq=2 GHz
+
+
+AC Sweep1[1].AC1[65/301] <lab1_lib:cell_1:schematic>  l1=64  freq=2 GHz
+
+
+AC Sweep1[1].AC1[66/301] <lab1_lib:cell_1:schematic>  l1=65  freq=2 GHz
+
+
+AC Sweep1[1].AC1[67/301] <lab1_lib:cell_1:schematic>  l1=66  freq=2 GHz
+
+
+AC Sweep1[1].AC1[68/301] <lab1_lib:cell_1:schematic>  l1=67  freq=2 GHz
+
+
+AC Sweep1[1].AC1[69/301] <lab1_lib:cell_1:schematic>  l1=68  freq=2 GHz
+
+
+AC Sweep1[1].AC1[70/301] <lab1_lib:cell_1:schematic>  l1=69  freq=2 GHz
+
+
+AC Sweep1[1].AC1[71/301] <lab1_lib:cell_1:schematic>  l1=70  freq=2 GHz
+
+
+AC Sweep1[1].AC1[72/301] <lab1_lib:cell_1:schematic>  l1=71  freq=2 GHz
+
+
+AC Sweep1[1].AC1[73/301] <lab1_lib:cell_1:schematic>  l1=72  freq=2 GHz
+
+
+AC Sweep1[1].AC1[74/301] <lab1_lib:cell_1:schematic>  l1=73  freq=2 GHz
+
+
+AC Sweep1[1].AC1[75/301] <lab1_lib:cell_1:schematic>  l1=74  freq=2 GHz
+
+
+AC Sweep1[1].AC1[76/301] <lab1_lib:cell_1:schematic>  l1=75  freq=2 GHz
+
+
+AC Sweep1[1].AC1[77/301] <lab1_lib:cell_1:schematic>  l1=76  freq=2 GHz
+
+
+AC Sweep1[1].AC1[78/301] <lab1_lib:cell_1:schematic>  l1=77  freq=2 GHz
+
+
+AC Sweep1[1].AC1[79/301] <lab1_lib:cell_1:schematic>  l1=78  freq=2 GHz
+
+
+AC Sweep1[1].AC1[80/301] <lab1_lib:cell_1:schematic>  l1=79  freq=2 GHz
+
+
+AC Sweep1[1].AC1[81/301] <lab1_lib:cell_1:schematic>  l1=80  freq=2 GHz
+
+
+AC Sweep1[1].AC1[82/301] <lab1_lib:cell_1:schematic>  l1=81  freq=2 GHz
+
+
+AC Sweep1[1].AC1[83/301] <lab1_lib:cell_1:schematic>  l1=82  freq=2 GHz
+
+
+AC Sweep1[1].AC1[84/301] <lab1_lib:cell_1:schematic>  l1=83  freq=2 GHz
+
+
+AC Sweep1[1].AC1[85/301] <lab1_lib:cell_1:schematic>  l1=84  freq=2 GHz
+
+
+AC Sweep1[1].AC1[86/301] <lab1_lib:cell_1:schematic>  l1=85  freq=2 GHz
+
+
+AC Sweep1[1].AC1[87/301] <lab1_lib:cell_1:schematic>  l1=86  freq=2 GHz
+
+
+AC Sweep1[1].AC1[88/301] <lab1_lib:cell_1:schematic>  l1=87  freq=2 GHz
+
+
+AC Sweep1[1].AC1[89/301] <lab1_lib:cell_1:schematic>  l1=88  freq=2 GHz
+
+
+AC Sweep1[1].AC1[90/301] <lab1_lib:cell_1:schematic>  l1=89  freq=2 GHz
+
+
+AC Sweep1[1].AC1[91/301] <lab1_lib:cell_1:schematic>  l1=90  freq=2 GHz
+
+
+AC Sweep1[1].AC1[92/301] <lab1_lib:cell_1:schematic>  l1=91  freq=2 GHz
+
+
+AC Sweep1[1].AC1[93/301] <lab1_lib:cell_1:schematic>  l1=92  freq=2 GHz
+
+
+AC Sweep1[1].AC1[94/301] <lab1_lib:cell_1:schematic>  l1=93  freq=2 GHz
+
+
+AC Sweep1[1].AC1[95/301] <lab1_lib:cell_1:schematic>  l1=94  freq=2 GHz
+
+
+AC Sweep1[1].AC1[96/301] <lab1_lib:cell_1:schematic>  l1=95  freq=2 GHz
+
+
+AC Sweep1[1].AC1[97/301] <lab1_lib:cell_1:schematic>  l1=96  freq=2 GHz
+
+
+AC Sweep1[1].AC1[98/301] <lab1_lib:cell_1:schematic>  l1=97  freq=2 GHz
+
+
+AC Sweep1[1].AC1[99/301] <lab1_lib:cell_1:schematic>  l1=98  freq=2 GHz
+
+
+AC Sweep1[1].AC1[100/301] <lab1_lib:cell_1:schematic>  l1=99  freq=2 GHz
+
+
+AC Sweep1[1].AC1[101/301] <lab1_lib:cell_1:schematic>  l1=100  freq=2 GHz
+
+
+AC Sweep1[1].AC1[102/301] <lab1_lib:cell_1:schematic>  l1=101  freq=2 GHz
+
+
+AC Sweep1[1].AC1[103/301] <lab1_lib:cell_1:schematic>  l1=102  freq=2 GHz
+
+
+AC Sweep1[1].AC1[104/301] <lab1_lib:cell_1:schematic>  l1=103  freq=2 GHz
+
+
+AC Sweep1[1].AC1[105/301] <lab1_lib:cell_1:schematic>  l1=104  freq=2 GHz
+
+
+AC Sweep1[1].AC1[106/301] <lab1_lib:cell_1:schematic>  l1=105  freq=2 GHz
+
+
+AC Sweep1[1].AC1[107/301] <lab1_lib:cell_1:schematic>  l1=106  freq=2 GHz
+
+
+AC Sweep1[1].AC1[108/301] <lab1_lib:cell_1:schematic>  l1=107  freq=2 GHz
+
+
+AC Sweep1[1].AC1[109/301] <lab1_lib:cell_1:schematic>  l1=108  freq=2 GHz
+
+
+AC Sweep1[1].AC1[110/301] <lab1_lib:cell_1:schematic>  l1=109  freq=2 GHz
+
+
+AC Sweep1[1].AC1[111/301] <lab1_lib:cell_1:schematic>  l1=110  freq=2 GHz
+
+
+AC Sweep1[1].AC1[112/301] <lab1_lib:cell_1:schematic>  l1=111  freq=2 GHz
+
+
+AC Sweep1[1].AC1[113/301] <lab1_lib:cell_1:schematic>  l1=112  freq=2 GHz
+
+
+AC Sweep1[1].AC1[114/301] <lab1_lib:cell_1:schematic>  l1=113  freq=2 GHz
+
+
+AC Sweep1[1].AC1[115/301] <lab1_lib:cell_1:schematic>  l1=114  freq=2 GHz
+
+
+AC Sweep1[1].AC1[116/301] <lab1_lib:cell_1:schematic>  l1=115  freq=2 GHz
+
+
+AC Sweep1[1].AC1[117/301] <lab1_lib:cell_1:schematic>  l1=116  freq=2 GHz
+
+
+AC Sweep1[1].AC1[118/301] <lab1_lib:cell_1:schematic>  l1=117  freq=2 GHz
+
+
+AC Sweep1[1].AC1[119/301] <lab1_lib:cell_1:schematic>  l1=118  freq=2 GHz
+
+
+AC Sweep1[1].AC1[120/301] <lab1_lib:cell_1:schematic>  l1=119  freq=2 GHz
+
+
+AC Sweep1[1].AC1[121/301] <lab1_lib:cell_1:schematic>  l1=120  freq=2 GHz
+
+
+AC Sweep1[1].AC1[122/301] <lab1_lib:cell_1:schematic>  l1=121  freq=2 GHz
+
+
+AC Sweep1[1].AC1[123/301] <lab1_lib:cell_1:schematic>  l1=122  freq=2 GHz
+
+
+AC Sweep1[1].AC1[124/301] <lab1_lib:cell_1:schematic>  l1=123  freq=2 GHz
+
+
+AC Sweep1[1].AC1[125/301] <lab1_lib:cell_1:schematic>  l1=124  freq=2 GHz
+
+
+AC Sweep1[1].AC1[126/301] <lab1_lib:cell_1:schematic>  l1=125  freq=2 GHz
+
+
+AC Sweep1[1].AC1[127/301] <lab1_lib:cell_1:schematic>  l1=126  freq=2 GHz
+
+
+AC Sweep1[1].AC1[128/301] <lab1_lib:cell_1:schematic>  l1=127  freq=2 GHz
+
+
+AC Sweep1[1].AC1[129/301] <lab1_lib:cell_1:schematic>  l1=128  freq=2 GHz
+
+
+AC Sweep1[1].AC1[130/301] <lab1_lib:cell_1:schematic>  l1=129  freq=2 GHz
+
+
+AC Sweep1[1].AC1[131/301] <lab1_lib:cell_1:schematic>  l1=130  freq=2 GHz
+
+
+AC Sweep1[1].AC1[132/301] <lab1_lib:cell_1:schematic>  l1=131  freq=2 GHz
+
+
+AC Sweep1[1].AC1[133/301] <lab1_lib:cell_1:schematic>  l1=132  freq=2 GHz
+
+
+AC Sweep1[1].AC1[134/301] <lab1_lib:cell_1:schematic>  l1=133  freq=2 GHz
+
+
+AC Sweep1[1].AC1[135/301] <lab1_lib:cell_1:schematic>  l1=134  freq=2 GHz
+
+
+AC Sweep1[1].AC1[136/301] <lab1_lib:cell_1:schematic>  l1=135  freq=2 GHz
+
+
+AC Sweep1[1].AC1[137/301] <lab1_lib:cell_1:schematic>  l1=136  freq=2 GHz
+
+
+AC Sweep1[1].AC1[138/301] <lab1_lib:cell_1:schematic>  l1=137  freq=2 GHz
+
+
+AC Sweep1[1].AC1[139/301] <lab1_lib:cell_1:schematic>  l1=138  freq=2 GHz
+
+
+AC Sweep1[1].AC1[140/301] <lab1_lib:cell_1:schematic>  l1=139  freq=2 GHz
+
+
+AC Sweep1[1].AC1[141/301] <lab1_lib:cell_1:schematic>  l1=140  freq=2 GHz
+
+
+AC Sweep1[1].AC1[142/301] <lab1_lib:cell_1:schematic>  l1=141  freq=2 GHz
+
+
+AC Sweep1[1].AC1[143/301] <lab1_lib:cell_1:schematic>  l1=142  freq=2 GHz
+
+
+AC Sweep1[1].AC1[144/301] <lab1_lib:cell_1:schematic>  l1=143  freq=2 GHz
+
+
+AC Sweep1[1].AC1[145/301] <lab1_lib:cell_1:schematic>  l1=144  freq=2 GHz
+
+
+AC Sweep1[1].AC1[146/301] <lab1_lib:cell_1:schematic>  l1=145  freq=2 GHz
+
+
+AC Sweep1[1].AC1[147/301] <lab1_lib:cell_1:schematic>  l1=146  freq=2 GHz
+
+
+AC Sweep1[1].AC1[148/301] <lab1_lib:cell_1:schematic>  l1=147  freq=2 GHz
+
+
+AC Sweep1[1].AC1[149/301] <lab1_lib:cell_1:schematic>  l1=148  freq=2 GHz
+
+
+AC Sweep1[1].AC1[150/301] <lab1_lib:cell_1:schematic>  l1=149  freq=2 GHz
+
+
+AC Sweep1[1].AC1[151/301] <lab1_lib:cell_1:schematic>  l1=150  freq=2 GHz
+
+
+AC Sweep1[1].AC1[152/301] <lab1_lib:cell_1:schematic>  l1=151  freq=2 GHz
+
+
+AC Sweep1[1].AC1[153/301] <lab1_lib:cell_1:schematic>  l1=152  freq=2 GHz
+
+
+AC Sweep1[1].AC1[154/301] <lab1_lib:cell_1:schematic>  l1=153  freq=2 GHz
+
+
+AC Sweep1[1].AC1[155/301] <lab1_lib:cell_1:schematic>  l1=154  freq=2 GHz
+
+
+AC Sweep1[1].AC1[156/301] <lab1_lib:cell_1:schematic>  l1=155  freq=2 GHz
+
+
+AC Sweep1[1].AC1[157/301] <lab1_lib:cell_1:schematic>  l1=156  freq=2 GHz
+
+
+AC Sweep1[1].AC1[158/301] <lab1_lib:cell_1:schematic>  l1=157  freq=2 GHz
+
+
+AC Sweep1[1].AC1[159/301] <lab1_lib:cell_1:schematic>  l1=158  freq=2 GHz
+
+
+AC Sweep1[1].AC1[160/301] <lab1_lib:cell_1:schematic>  l1=159  freq=2 GHz
+
+
+AC Sweep1[1].AC1[161/301] <lab1_lib:cell_1:schematic>  l1=160  freq=2 GHz
+
+
+AC Sweep1[1].AC1[162/301] <lab1_lib:cell_1:schematic>  l1=161  freq=2 GHz
+
+
+AC Sweep1[1].AC1[163/301] <lab1_lib:cell_1:schematic>  l1=162  freq=2 GHz
+
+
+AC Sweep1[1].AC1[164/301] <lab1_lib:cell_1:schematic>  l1=163  freq=2 GHz
+
+
+AC Sweep1[1].AC1[165/301] <lab1_lib:cell_1:schematic>  l1=164  freq=2 GHz
+
+
+AC Sweep1[1].AC1[166/301] <lab1_lib:cell_1:schematic>  l1=165  freq=2 GHz
+
+
+AC Sweep1[1].AC1[167/301] <lab1_lib:cell_1:schematic>  l1=166  freq=2 GHz
+
+
+AC Sweep1[1].AC1[168/301] <lab1_lib:cell_1:schematic>  l1=167  freq=2 GHz
+
+
+AC Sweep1[1].AC1[169/301] <lab1_lib:cell_1:schematic>  l1=168  freq=2 GHz
+
+
+AC Sweep1[1].AC1[170/301] <lab1_lib:cell_1:schematic>  l1=169  freq=2 GHz
+
+
+AC Sweep1[1].AC1[171/301] <lab1_lib:cell_1:schematic>  l1=170  freq=2 GHz
+
+
+AC Sweep1[1].AC1[172/301] <lab1_lib:cell_1:schematic>  l1=171  freq=2 GHz
+
+
+AC Sweep1[1].AC1[173/301] <lab1_lib:cell_1:schematic>  l1=172  freq=2 GHz
+
+
+AC Sweep1[1].AC1[174/301] <lab1_lib:cell_1:schematic>  l1=173  freq=2 GHz
+
+
+AC Sweep1[1].AC1[175/301] <lab1_lib:cell_1:schematic>  l1=174  freq=2 GHz
+
+
+AC Sweep1[1].AC1[176/301] <lab1_lib:cell_1:schematic>  l1=175  freq=2 GHz
+
+
+AC Sweep1[1].AC1[177/301] <lab1_lib:cell_1:schematic>  l1=176  freq=2 GHz
+
+
+AC Sweep1[1].AC1[178/301] <lab1_lib:cell_1:schematic>  l1=177  freq=2 GHz
+
+
+AC Sweep1[1].AC1[179/301] <lab1_lib:cell_1:schematic>  l1=178  freq=2 GHz
+
+
+AC Sweep1[1].AC1[180/301] <lab1_lib:cell_1:schematic>  l1=179  freq=2 GHz
+
+
+AC Sweep1[1].AC1[181/301] <lab1_lib:cell_1:schematic>  l1=180  freq=2 GHz
+
+
+AC Sweep1[1].AC1[182/301] <lab1_lib:cell_1:schematic>  l1=181  freq=2 GHz
+
+
+AC Sweep1[1].AC1[183/301] <lab1_lib:cell_1:schematic>  l1=182  freq=2 GHz
+
+
+AC Sweep1[1].AC1[184/301] <lab1_lib:cell_1:schematic>  l1=183  freq=2 GHz
+
+
+AC Sweep1[1].AC1[185/301] <lab1_lib:cell_1:schematic>  l1=184  freq=2 GHz
+
+
+AC Sweep1[1].AC1[186/301] <lab1_lib:cell_1:schematic>  l1=185  freq=2 GHz
+
+
+AC Sweep1[1].AC1[187/301] <lab1_lib:cell_1:schematic>  l1=186  freq=2 GHz
+
+
+AC Sweep1[1].AC1[188/301] <lab1_lib:cell_1:schematic>  l1=187  freq=2 GHz
+
+
+AC Sweep1[1].AC1[189/301] <lab1_lib:cell_1:schematic>  l1=188  freq=2 GHz
+
+
+AC Sweep1[1].AC1[190/301] <lab1_lib:cell_1:schematic>  l1=189  freq=2 GHz
+
+
+AC Sweep1[1].AC1[191/301] <lab1_lib:cell_1:schematic>  l1=190  freq=2 GHz
+
+
+AC Sweep1[1].AC1[192/301] <lab1_lib:cell_1:schematic>  l1=191  freq=2 GHz
+
+
+AC Sweep1[1].AC1[193/301] <lab1_lib:cell_1:schematic>  l1=192  freq=2 GHz
+
+
+AC Sweep1[1].AC1[194/301] <lab1_lib:cell_1:schematic>  l1=193  freq=2 GHz
+
+
+AC Sweep1[1].AC1[195/301] <lab1_lib:cell_1:schematic>  l1=194  freq=2 GHz
+
+
+AC Sweep1[1].AC1[196/301] <lab1_lib:cell_1:schematic>  l1=195  freq=2 GHz
+
+
+AC Sweep1[1].AC1[197/301] <lab1_lib:cell_1:schematic>  l1=196  freq=2 GHz
+
+
+AC Sweep1[1].AC1[198/301] <lab1_lib:cell_1:schematic>  l1=197  freq=2 GHz
+
+
+AC Sweep1[1].AC1[199/301] <lab1_lib:cell_1:schematic>  l1=198  freq=2 GHz
+
+
+AC Sweep1[1].AC1[200/301] <lab1_lib:cell_1:schematic>  l1=199  freq=2 GHz
+
+
+AC Sweep1[1].AC1[201/301] <lab1_lib:cell_1:schematic>  l1=200  freq=2 GHz
+
+
+AC Sweep1[1].AC1[202/301] <lab1_lib:cell_1:schematic>  l1=201  freq=2 GHz
+
+
+AC Sweep1[1].AC1[203/301] <lab1_lib:cell_1:schematic>  l1=202  freq=2 GHz
+
+
+AC Sweep1[1].AC1[204/301] <lab1_lib:cell_1:schematic>  l1=203  freq=2 GHz
+
+
+AC Sweep1[1].AC1[205/301] <lab1_lib:cell_1:schematic>  l1=204  freq=2 GHz
+
+
+AC Sweep1[1].AC1[206/301] <lab1_lib:cell_1:schematic>  l1=205  freq=2 GHz
+
+
+AC Sweep1[1].AC1[207/301] <lab1_lib:cell_1:schematic>  l1=206  freq=2 GHz
+
+
+AC Sweep1[1].AC1[208/301] <lab1_lib:cell_1:schematic>  l1=207  freq=2 GHz
+
+
+AC Sweep1[1].AC1[209/301] <lab1_lib:cell_1:schematic>  l1=208  freq=2 GHz
+
+
+AC Sweep1[1].AC1[210/301] <lab1_lib:cell_1:schematic>  l1=209  freq=2 GHz
+
+
+AC Sweep1[1].AC1[211/301] <lab1_lib:cell_1:schematic>  l1=210  freq=2 GHz
+
+
+AC Sweep1[1].AC1[212/301] <lab1_lib:cell_1:schematic>  l1=211  freq=2 GHz
+
+
+AC Sweep1[1].AC1[213/301] <lab1_lib:cell_1:schematic>  l1=212  freq=2 GHz
+
+
+AC Sweep1[1].AC1[214/301] <lab1_lib:cell_1:schematic>  l1=213  freq=2 GHz
+
+
+AC Sweep1[1].AC1[215/301] <lab1_lib:cell_1:schematic>  l1=214  freq=2 GHz
+
+
+AC Sweep1[1].AC1[216/301] <lab1_lib:cell_1:schematic>  l1=215  freq=2 GHz
+
+
+AC Sweep1[1].AC1[217/301] <lab1_lib:cell_1:schematic>  l1=216  freq=2 GHz
+
+
+AC Sweep1[1].AC1[218/301] <lab1_lib:cell_1:schematic>  l1=217  freq=2 GHz
+
+
+AC Sweep1[1].AC1[219/301] <lab1_lib:cell_1:schematic>  l1=218  freq=2 GHz
+
+
+AC Sweep1[1].AC1[220/301] <lab1_lib:cell_1:schematic>  l1=219  freq=2 GHz
+
+
+AC Sweep1[1].AC1[221/301] <lab1_lib:cell_1:schematic>  l1=220  freq=2 GHz
+
+
+AC Sweep1[1].AC1[222/301] <lab1_lib:cell_1:schematic>  l1=221  freq=2 GHz
+
+
+AC Sweep1[1].AC1[223/301] <lab1_lib:cell_1:schematic>  l1=222  freq=2 GHz
+
+
+AC Sweep1[1].AC1[224/301] <lab1_lib:cell_1:schematic>  l1=223  freq=2 GHz
+
+
+AC Sweep1[1].AC1[225/301] <lab1_lib:cell_1:schematic>  l1=224  freq=2 GHz
+
+
+AC Sweep1[1].AC1[226/301] <lab1_lib:cell_1:schematic>  l1=225  freq=2 GHz
+
+
+AC Sweep1[1].AC1[227/301] <lab1_lib:cell_1:schematic>  l1=226  freq=2 GHz
+
+
+AC Sweep1[1].AC1[228/301] <lab1_lib:cell_1:schematic>  l1=227  freq=2 GHz
+
+
+AC Sweep1[1].AC1[229/301] <lab1_lib:cell_1:schematic>  l1=228  freq=2 GHz
+
+
+AC Sweep1[1].AC1[230/301] <lab1_lib:cell_1:schematic>  l1=229  freq=2 GHz
+
+
+AC Sweep1[1].AC1[231/301] <lab1_lib:cell_1:schematic>  l1=230  freq=2 GHz
+
+
+AC Sweep1[1].AC1[232/301] <lab1_lib:cell_1:schematic>  l1=231  freq=2 GHz
+
+
+AC Sweep1[1].AC1[233/301] <lab1_lib:cell_1:schematic>  l1=232  freq=2 GHz
+
+
+AC Sweep1[1].AC1[234/301] <lab1_lib:cell_1:schematic>  l1=233  freq=2 GHz
+
+
+AC Sweep1[1].AC1[235/301] <lab1_lib:cell_1:schematic>  l1=234  freq=2 GHz
+
+
+AC Sweep1[1].AC1[236/301] <lab1_lib:cell_1:schematic>  l1=235  freq=2 GHz
+
+
+AC Sweep1[1].AC1[237/301] <lab1_lib:cell_1:schematic>  l1=236  freq=2 GHz
+
+
+AC Sweep1[1].AC1[238/301] <lab1_lib:cell_1:schematic>  l1=237  freq=2 GHz
+
+
+AC Sweep1[1].AC1[239/301] <lab1_lib:cell_1:schematic>  l1=238  freq=2 GHz
+
+
+AC Sweep1[1].AC1[240/301] <lab1_lib:cell_1:schematic>  l1=239  freq=2 GHz
+
+
+AC Sweep1[1].AC1[241/301] <lab1_lib:cell_1:schematic>  l1=240  freq=2 GHz
+
+
+AC Sweep1[1].AC1[242/301] <lab1_lib:cell_1:schematic>  l1=241  freq=2 GHz
+
+
+AC Sweep1[1].AC1[243/301] <lab1_lib:cell_1:schematic>  l1=242  freq=2 GHz
+
+
+AC Sweep1[1].AC1[244/301] <lab1_lib:cell_1:schematic>  l1=243  freq=2 GHz
+
+
+AC Sweep1[1].AC1[245/301] <lab1_lib:cell_1:schematic>  l1=244  freq=2 GHz
+
+
+AC Sweep1[1].AC1[246/301] <lab1_lib:cell_1:schematic>  l1=245  freq=2 GHz
+
+
+AC Sweep1[1].AC1[247/301] <lab1_lib:cell_1:schematic>  l1=246  freq=2 GHz
+
+
+AC Sweep1[1].AC1[248/301] <lab1_lib:cell_1:schematic>  l1=247  freq=2 GHz
+
+
+AC Sweep1[1].AC1[249/301] <lab1_lib:cell_1:schematic>  l1=248  freq=2 GHz
+
+
+AC Sweep1[1].AC1[250/301] <lab1_lib:cell_1:schematic>  l1=249  freq=2 GHz
+
+
+AC Sweep1[1].AC1[251/301] <lab1_lib:cell_1:schematic>  l1=250  freq=2 GHz
+
+
+AC Sweep1[1].AC1[252/301] <lab1_lib:cell_1:schematic>  l1=251  freq=2 GHz
+
+
+AC Sweep1[1].AC1[253/301] <lab1_lib:cell_1:schematic>  l1=252  freq=2 GHz
+
+
+AC Sweep1[1].AC1[254/301] <lab1_lib:cell_1:schematic>  l1=253  freq=2 GHz
+
+
+AC Sweep1[1].AC1[255/301] <lab1_lib:cell_1:schematic>  l1=254  freq=2 GHz
+
+
+AC Sweep1[1].AC1[256/301] <lab1_lib:cell_1:schematic>  l1=255  freq=2 GHz
+
+
+AC Sweep1[1].AC1[257/301] <lab1_lib:cell_1:schematic>  l1=256  freq=2 GHz
+
+
+AC Sweep1[1].AC1[258/301] <lab1_lib:cell_1:schematic>  l1=257  freq=2 GHz
+
+
+AC Sweep1[1].AC1[259/301] <lab1_lib:cell_1:schematic>  l1=258  freq=2 GHz
+
+
+AC Sweep1[1].AC1[260/301] <lab1_lib:cell_1:schematic>  l1=259  freq=2 GHz
+
+
+AC Sweep1[1].AC1[261/301] <lab1_lib:cell_1:schematic>  l1=260  freq=2 GHz
+
+
+AC Sweep1[1].AC1[262/301] <lab1_lib:cell_1:schematic>  l1=261  freq=2 GHz
+
+
+AC Sweep1[1].AC1[263/301] <lab1_lib:cell_1:schematic>  l1=262  freq=2 GHz
+
+
+AC Sweep1[1].AC1[264/301] <lab1_lib:cell_1:schematic>  l1=263  freq=2 GHz
+
+
+AC Sweep1[1].AC1[265/301] <lab1_lib:cell_1:schematic>  l1=264  freq=2 GHz
+
+
+AC Sweep1[1].AC1[266/301] <lab1_lib:cell_1:schematic>  l1=265  freq=2 GHz
+
+
+AC Sweep1[1].AC1[267/301] <lab1_lib:cell_1:schematic>  l1=266  freq=2 GHz
+
+
+AC Sweep1[1].AC1[268/301] <lab1_lib:cell_1:schematic>  l1=267  freq=2 GHz
+
+
+AC Sweep1[1].AC1[269/301] <lab1_lib:cell_1:schematic>  l1=268  freq=2 GHz
+
+
+AC Sweep1[1].AC1[270/301] <lab1_lib:cell_1:schematic>  l1=269  freq=2 GHz
+
+
+AC Sweep1[1].AC1[271/301] <lab1_lib:cell_1:schematic>  l1=270  freq=2 GHz
+
+
+AC Sweep1[1].AC1[272/301] <lab1_lib:cell_1:schematic>  l1=271  freq=2 GHz
+
+
+AC Sweep1[1].AC1[273/301] <lab1_lib:cell_1:schematic>  l1=272  freq=2 GHz
+
+
+AC Sweep1[1].AC1[274/301] <lab1_lib:cell_1:schematic>  l1=273  freq=2 GHz
+
+
+AC Sweep1[1].AC1[275/301] <lab1_lib:cell_1:schematic>  l1=274  freq=2 GHz
+
+
+AC Sweep1[1].AC1[276/301] <lab1_lib:cell_1:schematic>  l1=275  freq=2 GHz
+
+
+AC Sweep1[1].AC1[277/301] <lab1_lib:cell_1:schematic>  l1=276  freq=2 GHz
+
+
+AC Sweep1[1].AC1[278/301] <lab1_lib:cell_1:schematic>  l1=277  freq=2 GHz
+
+
+AC Sweep1[1].AC1[279/301] <lab1_lib:cell_1:schematic>  l1=278  freq=2 GHz
+
+
+AC Sweep1[1].AC1[280/301] <lab1_lib:cell_1:schematic>  l1=279  freq=2 GHz
+
+
+AC Sweep1[1].AC1[281/301] <lab1_lib:cell_1:schematic>  l1=280  freq=2 GHz
+
+
+AC Sweep1[1].AC1[282/301] <lab1_lib:cell_1:schematic>  l1=281  freq=2 GHz
+
+
+AC Sweep1[1].AC1[283/301] <lab1_lib:cell_1:schematic>  l1=282  freq=2 GHz
+
+
+AC Sweep1[1].AC1[284/301] <lab1_lib:cell_1:schematic>  l1=283  freq=2 GHz
+
+
+AC Sweep1[1].AC1[285/301] <lab1_lib:cell_1:schematic>  l1=284  freq=2 GHz
+
+
+AC Sweep1[1].AC1[286/301] <lab1_lib:cell_1:schematic>  l1=285  freq=2 GHz
+
+
+AC Sweep1[1].AC1[287/301] <lab1_lib:cell_1:schematic>  l1=286  freq=2 GHz
+
+
+AC Sweep1[1].AC1[288/301] <lab1_lib:cell_1:schematic>  l1=287  freq=2 GHz
+
+
+AC Sweep1[1].AC1[289/301] <lab1_lib:cell_1:schematic>  l1=288  freq=2 GHz
+
+
+AC Sweep1[1].AC1[290/301] <lab1_lib:cell_1:schematic>  l1=289  freq=2 GHz
+
+
+AC Sweep1[1].AC1[291/301] <lab1_lib:cell_1:schematic>  l1=290  freq=2 GHz
+
+
+AC Sweep1[1].AC1[292/301] <lab1_lib:cell_1:schematic>  l1=291  freq=2 GHz
+
+
+AC Sweep1[1].AC1[293/301] <lab1_lib:cell_1:schematic>  l1=292  freq=2 GHz
+
+
+AC Sweep1[1].AC1[294/301] <lab1_lib:cell_1:schematic>  l1=293  freq=2 GHz
+
+
+AC Sweep1[1].AC1[295/301] <lab1_lib:cell_1:schematic>  l1=294  freq=2 GHz
+
+
+AC Sweep1[1].AC1[296/301] <lab1_lib:cell_1:schematic>  l1=295  freq=2 GHz
+
+
+AC Sweep1[1].AC1[297/301] <lab1_lib:cell_1:schematic>  l1=296  freq=2 GHz
+
+
+AC Sweep1[1].AC1[298/301] <lab1_lib:cell_1:schematic>  l1=297  freq=2 GHz
+
+
+AC Sweep1[1].AC1[299/301] <lab1_lib:cell_1:schematic>  l1=298  freq=2 GHz
+
+
+AC Sweep1[1].AC1[300/301] <lab1_lib:cell_1:schematic>  l1=299  freq=2 GHz
+
+
+AC Sweep1[1].AC1[301/301] <lab1_lib:cell_1:schematic>  l1=300  freq=2 GHz
+
+
+Resource usage:
+  Total stopwatch time     =     0.68 seconds.
+

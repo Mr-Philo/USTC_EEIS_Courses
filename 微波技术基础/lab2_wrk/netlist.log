@@ -1,0 +1,32 @@
+; Top Design: "lab2_lib:cell_4:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="lab2_lib:cell_4:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: lab2_lib
+; Cell Name: DA_SSMatch1_cell_4
+; View Name: schematic
+define DA_SSMatch1_cell_4 ( P1  P2 ) 
+parameters  Subst="MSub1"  F=1 GHz  Zin=50 Ohm  Zload=100 Ohm  Zstub=50 Ohm  Zline=50 Ohm  Zfeed=50 Ohm  StubType=1  NetType=0  Delta=0 
+MTEE:Tee1  P1 N__0 N__2 Subst="MSub1" W1=40.195 mil W2=40.195 mil W3=40.195 mil 
+MLEF2:TL1  N__2 Subst="MSub1" W=40.195 mil L=1098.789 mil Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL2  N__0 P2 Subst="MSub1" W=40.195 mil L=739.716 mil Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+end DA_SSMatch1_cell_4
+
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=1.5 GHz Stop=2.5 GHz Step=1 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+model MSub1 MSUB H=1.0 mm Er=9.3 Mur=1 Cond=1.0E+30 Hu=1.0e+33 mm T=0.015 mm TanD=1e-4 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+DA_SSMatch1_cell_4:DA_SSMatch1  N__4 N__3 Subst="MSub1" F=2 GHz Zin=(25+j*25) Ohm Zload=(100-j*25) Ohm Zstub=50 Ohm Zline=50 Ohm Zfeed=50 Ohm StubType=1 NetType=0 Delta=0 mil 
+Port:Term1  N__4 0 Num=1 Z=(25-j*25) Ohm Noise=yes 
+Port:Term2  N__3 0 Num=2 Z=100-j*25 Noise=yes 

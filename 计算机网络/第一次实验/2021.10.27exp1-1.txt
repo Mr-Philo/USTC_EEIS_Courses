@@ -1,0 +1,379 @@
+﻿//用ip address命令查看本机 IP 地址和以太网的硬件地址。
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:ac:2e:54 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.226.129/24 brd 192.168.226.255 scope global dynamic noprefixroute ens33
+       valid_lft 1594sec preferred_lft 1594sec
+    inet6 fe80::ba7:70e3:22ed:d2cf/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+//使用sudo ip neigh flush all删除本机 ARP 缓存表的内容，并用ip neigh命令查看。用户ubuntu的密码是123456。
+192.168.226.2 dev ens33 lladdr 00:50:56:ec:af:bf REACHABLE
+
+//虚拟机外 Windows 主机打开命令行，使用ipconfig命令查看的 IP 地址，然后使用ping命令向其发送报文（ICMP echo request）。
+//192.168.133.93
+PING 192.168.133.93 (192.168.133.93) 56(84) bytes of data.
+64 bytes from 192.168.133.93: icmp_seq=1 ttl=128 time=3.28 ms
+64 bytes from 192.168.133.93: icmp_seq=2 ttl=128 time=1.21 ms
+64 bytes from 192.168.133.93: icmp_seq=3 ttl=128 time=1.21 ms
+64 bytes from 192.168.133.93: icmp_seq=4 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=5 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=6 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=7 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=8 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=9 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=10 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=11 ttl=128 time=3.24 ms
+64 bytes from 192.168.133.93: icmp_seq=12 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=13 ttl=128 time=1.11 ms
+64 bytes from 192.168.133.93: icmp_seq=14 ttl=128 time=1.45 ms
+64 bytes from 192.168.133.93: icmp_seq=15 ttl=128 time=0.313 ms
+64 bytes from 192.168.133.93: icmp_seq=16 ttl=128 time=0.476 ms
+64 bytes from 192.168.133.93: icmp_seq=17 ttl=128 time=0.290 ms
+64 bytes from 192.168.133.93: icmp_seq=18 ttl=128 time=0.483 ms
+64 bytes from 192.168.133.93: icmp_seq=19 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=20 ttl=128 time=1.51 ms
+64 bytes from 192.168.133.93: icmp_seq=21 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=22 ttl=128 time=1.44 ms
+64 bytes from 192.168.133.93: icmp_seq=23 ttl=128 time=0.498 ms
+64 bytes from 192.168.133.93: icmp_seq=24 ttl=128 time=0.447 ms
+64 bytes from 192.168.133.93: icmp_seq=25 ttl=128 time=1.15 ms
+64 bytes from 192.168.133.93: icmp_seq=26 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=27 ttl=128 time=1.32 ms
+64 bytes from 192.168.133.93: icmp_seq=28 ttl=128 time=1.25 ms
+64 bytes from 192.168.133.93: icmp_seq=29 ttl=128 time=1.28 ms
+64 bytes from 192.168.133.93: icmp_seq=30 ttl=128 time=1.20 ms
+64 bytes from 192.168.133.93: icmp_seq=31 ttl=128 time=1.27 ms
+64 bytes from 192.168.133.93: icmp_seq=32 ttl=128 time=1.29 ms
+64 bytes from 192.168.133.93: icmp_seq=33 ttl=128 time=0.535 ms
+64 bytes from 192.168.133.93: icmp_seq=34 ttl=128 time=2.67 ms
+64 bytes from 192.168.133.93: icmp_seq=35 ttl=128 time=1.35 ms
+64 bytes from 192.168.133.93: icmp_seq=36 ttl=128 time=1.23 ms
+64 bytes from 192.168.133.93: icmp_seq=37 ttl=128 time=1.33 ms
+64 bytes from 192.168.133.93: icmp_seq=38 ttl=128 time=1.31 ms
+64 bytes from 192.168.133.93: icmp_seq=39 ttl=128 time=1.37 ms
+64 bytes from 192.168.133.93: icmp_seq=40 ttl=128 time=1.27 ms
+64 bytes from 192.168.133.93: icmp_seq=41 ttl=128 time=1.32 ms
+64 bytes from 192.168.133.93: icmp_seq=42 ttl=128 time=0.570 ms
+64 bytes from 192.168.133.93: icmp_seq=43 ttl=128 time=1.33 ms
+64 bytes from 192.168.133.93: icmp_seq=44 ttl=128 time=1.26 ms
+64 bytes from 192.168.133.93: icmp_seq=45 ttl=128 time=1.29 ms
+64 bytes from 192.168.133.93: icmp_seq=46 ttl=128 time=0.947 ms
+64 bytes from 192.168.133.93: icmp_seq=47 ttl=128 time=1.34 ms
+64 bytes from 192.168.133.93: icmp_seq=48 ttl=128 time=1.27 ms
+64 bytes from 192.168.133.93: icmp_seq=49 ttl=128 time=1.21 ms
+64 bytes from 192.168.133.93: icmp_seq=50 ttl=128 time=1.29 ms
+64 bytes from 192.168.133.93: icmp_seq=51 ttl=128 time=1.30 ms
+64 bytes from 192.168.133.93: icmp_seq=52 ttl=128 time=0.521 ms
+64 bytes from 192.168.133.93: icmp_seq=53 ttl=128 time=1.22 ms
+64 bytes from 192.168.133.93: icmp_seq=54 ttl=128 time=1.31 ms
+64 bytes from 192.168.133.93: icmp_seq=55 ttl=128 time=1.26 ms
+64 bytes from 192.168.133.93: icmp_seq=56 ttl=128 time=1.25 ms
+64 bytes from 192.168.133.93: icmp_seq=57 ttl=128 time=1.35 ms
+64 bytes from 192.168.133.93: icmp_seq=58 ttl=128 time=0.581 ms
+64 bytes from 192.168.133.93: icmp_seq=59 ttl=128 time=1.34 ms
+64 bytes from 192.168.133.93: icmp_seq=60 ttl=128 time=1.28 ms
+64 bytes from 192.168.133.93: icmp_seq=61 ttl=128 time=1.38 ms
+64 bytes from 192.168.133.93: icmp_seq=62 ttl=128 time=0.708 ms
+64 bytes from 192.168.133.93: icmp_seq=63 ttl=128 time=1.31 ms
+64 bytes from 192.168.133.93: icmp_seq=64 ttl=128 time=1.30 ms
+64 bytes from 192.168.133.93: icmp_seq=65 ttl=128 time=1.41 ms
+64 bytes from 192.168.133.93: icmp_seq=66 ttl=128 time=1.46 ms
+64 bytes from 192.168.133.93: icmp_seq=67 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=68 ttl=128 time=1.22 ms
+64 bytes from 192.168.133.93: icmp_seq=69 ttl=128 time=1.11 ms
+64 bytes from 192.168.133.93: icmp_seq=70 ttl=128 time=1.24 ms
+64 bytes from 192.168.133.93: icmp_seq=71 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=72 ttl=128 time=1.13 ms
+64 bytes from 192.168.133.93: icmp_seq=73 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=74 ttl=128 time=1.25 ms
+64 bytes from 192.168.133.93: icmp_seq=75 ttl=128 time=0.764 ms
+64 bytes from 192.168.133.93: icmp_seq=76 ttl=128 time=1.24 ms
+64 bytes from 192.168.133.93: icmp_seq=77 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=78 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=79 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=80 ttl=128 time=1.21 ms
+64 bytes from 192.168.133.93: icmp_seq=81 ttl=128 time=1.09 ms
+64 bytes from 192.168.133.93: icmp_seq=82 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=83 ttl=128 time=1.22 ms
+64 bytes from 192.168.133.93: icmp_seq=84 ttl=128 time=0.875 ms
+64 bytes from 192.168.133.93: icmp_seq=85 ttl=128 time=1.20 ms
+64 bytes from 192.168.133.93: icmp_seq=86 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=87 ttl=128 time=0.738 ms
+64 bytes from 192.168.133.93: icmp_seq=88 ttl=128 time=1.23 ms
+64 bytes from 192.168.133.93: icmp_seq=89 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=90 ttl=128 time=0.605 ms
+64 bytes from 192.168.133.93: icmp_seq=91 ttl=128 time=1.21 ms
+64 bytes from 192.168.133.93: icmp_seq=92 ttl=128 time=1.20 ms
+64 bytes from 192.168.133.93: icmp_seq=93 ttl=128 time=0.637 ms
+64 bytes from 192.168.133.93: icmp_seq=94 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=95 ttl=128 time=1.22 ms
+64 bytes from 192.168.133.93: icmp_seq=96 ttl=128 time=0.478 ms
+64 bytes from 192.168.133.93: icmp_seq=97 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=98 ttl=128 time=1.21 ms
+64 bytes from 192.168.133.93: icmp_seq=99 ttl=128 time=0.487 ms
+64 bytes from 192.168.133.93: icmp_seq=100 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=101 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=102 ttl=128 time=0.464 ms
+64 bytes from 192.168.133.93: icmp_seq=103 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=104 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=105 ttl=128 time=0.442 ms
+64 bytes from 192.168.133.93: icmp_seq=106 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=107 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=108 ttl=128 time=0.413 ms
+64 bytes from 192.168.133.93: icmp_seq=109 ttl=128 time=1.22 ms
+64 bytes from 192.168.133.93: icmp_seq=110 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=111 ttl=128 time=0.461 ms
+64 bytes from 192.168.133.93: icmp_seq=112 ttl=128 time=2.15 ms
+64 bytes from 192.168.133.93: icmp_seq=113 ttl=128 time=1.11 ms
+64 bytes from 192.168.133.93: icmp_seq=114 ttl=128 time=0.445 ms
+64 bytes from 192.168.133.93: icmp_seq=115 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=116 ttl=128 time=1.14 ms
+64 bytes from 192.168.133.93: icmp_seq=117 ttl=128 time=0.466 ms
+64 bytes from 192.168.133.93: icmp_seq=118 ttl=128 time=1.12 ms
+64 bytes from 192.168.133.93: icmp_seq=119 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=120 ttl=128 time=0.593 ms
+64 bytes from 192.168.133.93: icmp_seq=121 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=122 ttl=128 time=1.20 ms
+64 bytes from 192.168.133.93: icmp_seq=123 ttl=128 time=1.28 ms
+64 bytes from 192.168.133.93: icmp_seq=124 ttl=128 time=1.21 ms
+64 bytes from 192.168.133.93: icmp_seq=125 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=126 ttl=128 time=1.11 ms
+64 bytes from 192.168.133.93: icmp_seq=127 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=128 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=129 ttl=128 time=1.20 ms
+64 bytes from 192.168.133.93: icmp_seq=130 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=131 ttl=128 time=1.20 ms
+64 bytes from 192.168.133.93: icmp_seq=132 ttl=128 time=1.04 ms
+64 bytes from 192.168.133.93: icmp_seq=133 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=134 ttl=128 time=1.10 ms
+64 bytes from 192.168.133.93: icmp_seq=135 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=136 ttl=128 time=1.15 ms
+64 bytes from 192.168.133.93: icmp_seq=137 ttl=128 time=0.607 ms
+64 bytes from 192.168.133.93: icmp_seq=138 ttl=128 time=0.763 ms
+64 bytes from 192.168.133.93: icmp_seq=139 ttl=128 time=0.708 ms
+64 bytes from 192.168.133.93: icmp_seq=140 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=141 ttl=128 time=0.754 ms
+64 bytes from 192.168.133.93: icmp_seq=142 ttl=128 time=0.924 ms
+64 bytes from 192.168.133.93: icmp_seq=143 ttl=128 time=0.669 ms
+64 bytes from 192.168.133.93: icmp_seq=144 ttl=128 time=1.08 ms
+64 bytes from 192.168.133.93: icmp_seq=145 ttl=128 time=0.601 ms
+64 bytes from 192.168.133.93: icmp_seq=146 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=147 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=148 ttl=128 time=0.690 ms
+64 bytes from 192.168.133.93: icmp_seq=149 ttl=128 time=0.486 ms
+64 bytes from 192.168.133.93: icmp_seq=150 ttl=128 time=0.579 ms
+64 bytes from 192.168.133.93: icmp_seq=151 ttl=128 time=1.11 ms
+64 bytes from 192.168.133.93: icmp_seq=152 ttl=128 time=1.15 ms
+64 bytes from 192.168.133.93: icmp_seq=153 ttl=128 time=0.426 ms
+64 bytes from 192.168.133.93: icmp_seq=154 ttl=128 time=1.26 ms
+64 bytes from 192.168.133.93: icmp_seq=155 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=156 ttl=128 time=0.467 ms
+64 bytes from 192.168.133.93: icmp_seq=157 ttl=128 time=0.580 ms
+64 bytes from 192.168.133.93: icmp_seq=158 ttl=128 time=0.450 ms
+64 bytes from 192.168.133.93: icmp_seq=159 ttl=128 time=0.483 ms
+64 bytes from 192.168.133.93: icmp_seq=160 ttl=128 time=0.488 ms
+64 bytes from 192.168.133.93: icmp_seq=161 ttl=128 time=0.526 ms
+64 bytes from 192.168.133.93: icmp_seq=162 ttl=128 time=0.383 ms
+64 bytes from 192.168.133.93: icmp_seq=163 ttl=128 time=1.27 ms
+64 bytes from 192.168.133.93: icmp_seq=164 ttl=128 time=0.579 ms
+64 bytes from 192.168.133.93: icmp_seq=165 ttl=128 time=1.07 ms
+64 bytes from 192.168.133.93: icmp_seq=166 ttl=128 time=1.73 ms
+64 bytes from 192.168.133.93: icmp_seq=167 ttl=128 time=1.21 ms
+64 bytes from 192.168.133.93: icmp_seq=168 ttl=128 time=1.13 ms
+64 bytes from 192.168.133.93: icmp_seq=169 ttl=128 time=1.32 ms
+64 bytes from 192.168.133.93: icmp_seq=170 ttl=128 time=1.66 ms
+64 bytes from 192.168.133.93: icmp_seq=171 ttl=128 time=1.02 ms
+64 bytes from 192.168.133.93: icmp_seq=172 ttl=128 time=1.20 ms
+64 bytes from 192.168.133.93: icmp_seq=173 ttl=128 time=0.535 ms
+64 bytes from 192.168.133.93: icmp_seq=174 ttl=128 time=1.00 ms
+64 bytes from 192.168.133.93: icmp_seq=175 ttl=128 time=1.20 ms
+64 bytes from 192.168.133.93: icmp_seq=176 ttl=128 time=1.20 ms
+64 bytes from 192.168.133.93: icmp_seq=177 ttl=128 time=0.648 ms
+64 bytes from 192.168.133.93: icmp_seq=178 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=179 ttl=128 time=1.28 ms
+64 bytes from 192.168.133.93: icmp_seq=180 ttl=128 time=1.13 ms
+64 bytes from 192.168.133.93: icmp_seq=181 ttl=128 time=1.15 ms
+64 bytes from 192.168.133.93: icmp_seq=182 ttl=128 time=0.506 ms
+64 bytes from 192.168.133.93: icmp_seq=183 ttl=128 time=1.01 ms
+64 bytes from 192.168.133.93: icmp_seq=184 ttl=128 time=1.69 ms
+64 bytes from 192.168.133.93: icmp_seq=185 ttl=128 time=0.659 ms
+64 bytes from 192.168.133.93: icmp_seq=186 ttl=128 time=0.578 ms
+64 bytes from 192.168.133.93: icmp_seq=187 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=188 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=189 ttl=128 time=1.27 ms
+64 bytes from 192.168.133.93: icmp_seq=190 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=191 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=192 ttl=128 time=0.618 ms
+64 bytes from 192.168.133.93: icmp_seq=193 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=194 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=195 ttl=128 time=0.447 ms
+64 bytes from 192.168.133.93: icmp_seq=196 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=197 ttl=128 time=1.21 ms
+64 bytes from 192.168.133.93: icmp_seq=198 ttl=128 time=0.424 ms
+64 bytes from 192.168.133.93: icmp_seq=199 ttl=128 time=1.21 ms
+64 bytes from 192.168.133.93: icmp_seq=200 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=201 ttl=128 time=0.443 ms
+64 bytes from 192.168.133.93: icmp_seq=202 ttl=128 time=1.15 ms
+64 bytes from 192.168.133.93: icmp_seq=203 ttl=128 time=1.14 ms
+64 bytes from 192.168.133.93: icmp_seq=204 ttl=128 time=0.446 ms
+64 bytes from 192.168.133.93: icmp_seq=205 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=206 ttl=128 time=1.14 ms
+64 bytes from 192.168.133.93: icmp_seq=207 ttl=128 time=0.459 ms
+64 bytes from 192.168.133.93: icmp_seq=208 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=209 ttl=128 time=1.15 ms
+64 bytes from 192.168.133.93: icmp_seq=210 ttl=128 time=0.584 ms
+64 bytes from 192.168.133.93: icmp_seq=211 ttl=128 time=1.11 ms
+64 bytes from 192.168.133.93: icmp_seq=212 ttl=128 time=1.16 ms
+64 bytes from 192.168.133.93: icmp_seq=213 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=214 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=215 ttl=128 time=1.14 ms
+64 bytes from 192.168.133.93: icmp_seq=216 ttl=128 time=1.19 ms
+64 bytes from 192.168.133.93: icmp_seq=217 ttl=128 time=1.17 ms
+64 bytes from 192.168.133.93: icmp_seq=218 ttl=128 time=1.11 ms
+64 bytes from 192.168.133.93: icmp_seq=219 ttl=128 time=1.18 ms
+64 bytes from 192.168.133.93: icmp_seq=220 ttl=128 time=0.441 ms
+64 bytes from 192.168.133.93: icmp_seq=221 ttl=128 time=1.12 ms
+64 bytes from 192.168.133.93: icmp_seq=222 ttl=128 time=1.12 ms
+64 bytes from 192.168.133.93: icmp_seq=223 ttl=128 time=1.12 ms
+64 bytes from 192.168.133.93: icmp_seq=224 ttl=128 time=1.11 ms
+^C
+--- 192.168.133.93 ping statistics ---
+224 packets transmitted, 224 received, 0% packet loss, time 224113ms
+rtt min/avg/max/mdev = 0.290/1.074/3.285/0.396 ms
+
+//收到响应（ICMP echo reply）后，再次使用ip neigh命令查看本机 ARP 缓存表的内容，并获得对方机器的 MAC 地址。
+192.168.226.2 dev ens33 lladdr 00:50:56:ec:af:bf REACHABLE
+
+//用ip route命令查看本机的 IPv4 路由表，认真分析每条路由选项的含义。找到所在子网的子网掩码，并与前面ip address的结果做比较。
+default via 192.168.226.2 dev ens33 proto dhcp metric 100 
+169.254.0.0/16 dev ens33 scope link metric 1000 
+192.168.226.0/24 dev ens33 proto kernel scope link src 192.168.226.129 metric 100
+
+//用sysctl net.ipv4.ip_forward命令查看本机net.ipv4.ip_forward的配置值，实验结束后查找资料了解该配置的意义。
+net.ipv4.ip_forward = 0
+
+//用traceroute --icmp 202.38.64.1观察从本机到202.38.64.1一共经过多少路由器。
+traceroute to 202.38.64.1 (202.38.64.1), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.226.2)  0.412 ms  0.330 ms  0.296 ms
+ 2  192.168.133.254 (192.168.133.254)  2.637 ms  3.020 ms  3.391 ms
+ 3  172.16.0.1 (172.16.0.1)  2.195 ms  2.180 ms  2.159 ms
+ 4  202.38.88.94 (202.38.88.94)  2.143 ms  2.110 ms  2.081 ms
+ 5  202.38.96.60 (202.38.96.60)  19.890 ms  19.870 ms  19.857 ms
+ 6  ns.ustc.edu.cn (202.38.64.1)  1.998 ms  0.462 ms  0.425 ms
+
+
+//2021.11.3  IP组网配置更新
+//PC0 ping PC3 信息
+C:\>ping 192.168.2.101
+
+Pinging 192.168.2.101 with 32 bytes of data:
+
+Reply from 192.168.2.101: bytes=32 time=10ms TTL=126
+Reply from 192.168.2.101: bytes=32 time=10ms TTL=126
+Reply from 192.168.2.101: bytes=32 time=10ms TTL=126
+Reply from 192.168.2.101: bytes=32 time=10ms TTL=126
+
+Ping statistics for 192.168.2.101:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 10ms, Maximum = 10ms, Average = 10ms
+
+//PC0 ping PC4 信息
+C:\>ping 192.168.3.100
+
+Pinging 192.168.3.100 with 32 bytes of data:
+
+Reply from 192.168.3.100: bytes=32 time=12ms TTL=125
+Reply from 192.168.3.100: bytes=32 time=12ms TTL=125
+Reply from 192.168.3.100: bytes=32 time=12ms TTL=125
+Reply from 192.168.3.100: bytes=32 time=12ms TTL=125
+
+Ping statistics for 192.168.3.100:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 12ms, Maximum = 12ms, Average = 12ms
+
+C:\>
+
+//路由器Router0配置
+//静态路由：192.168.1.0/24 via 192.168.10.1
+	192.168.3.0/24 via 192.168.11.1
+//动态路由（RIP）：192.168.2.0  192.168.10.0  192.168.11.0
+//路由表：
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area
+       * - candidate default, U - per-user static route, o - ODR
+       P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+S    192.168.1.0/24 [1/0] via 192.168.10.1
+     192.168.2.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.2.0/24 is directly connected, GigabitEthernet0/1
+L       192.168.2.1/32 is directly connected, GigabitEthernet0/1
+S    192.168.3.0/24 [1/0] via 192.168.11.1
+     192.168.10.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.10.0/24 is directly connected, GigabitEthernet0/0
+L       192.168.10.2/32 is directly connected, GigabitEthernet0/0
+     192.168.11.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.11.0/24 is directly connected, GigabitEthernet0/2
+L       192.168.11.2/32 is directly connected, GigabitEthernet0/2
+
+
+//路由器Router1配置
+//静态路由：192.168.2.0/24 via 192.168.10.2
+	192.168.11.0/24 via 192.168.10.2
+//动态路由（RIP）：192.168.1.0  192.168.10.0
+//路由表：
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area
+       * - candidate default, U - per-user static route, o - ODR
+       P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.1.0/24 is directly connected, GigabitEthernet0/1
+L       192.168.1.1/32 is directly connected, GigabitEthernet0/1
+S    192.168.2.0/24 [1/0] via 192.168.10.2
+R    192.168.3.0/24 [120/2] via 192.168.10.2, 00:00:08, GigabitEthernet0/0
+     192.168.10.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.10.0/24 is directly connected, GigabitEthernet0/0
+L       192.168.10.1/32 is directly connected, GigabitEthernet0/0
+S    192.168.11.0/24 [1/0] via 192.168.10.2
+
+//路由器Router2配置
+//静态路由：192.168.10.0/24 via 192.168.11.2
+	192.168.2.0/24 via 192.168.11.2
+//动态路由（RIP）：192.168.3.0  192.168.11.0
+//路由表：
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area
+       * - candidate default, U - per-user static route, o - ODR
+       P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+S    192.168.2.0/24 [1/0] via 192.168.11.2
+     192.168.3.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.3.0/24 is directly connected, GigabitEthernet0/1
+L       192.168.3.1/32 is directly connected, GigabitEthernet0/1
+S    192.168.10.0/24 [1/0] via 192.168.11.2
+     192.168.11.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.11.0/24 is directly connected, GigabitEthernet0/2
+L       192.168.11.1/32 is directly connected, GigabitEthernet0/2

@@ -1,0 +1,9 @@
+
+% Input1 = [1 0 1 0 0 1 1 0 1];      % 测试序列
+% Encode = conv_encode(Input1, G_x);
+% % 展示卷积码
+% fprintf('    输入序列：\t%s\n',num2str(Input1));
+% fprintf('卷积编码系统：\t%s\n',num2str(Encode));
+% 
+% Decode = conv_decode(G_x, k, Encode);
+% fprintf('卷积解码系统：\t%s\n',num2str(Decode));

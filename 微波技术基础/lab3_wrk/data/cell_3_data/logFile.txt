@@ -1,0 +1,15 @@
+
+hpeesofsim (*) 490.shp Nov 12 2018, MINT version 4
+    (64-bit windows built: Tue Nov 13, 2018 02:20:54 +0000)
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 2
+    Number of nodes with no DC path to ground (topology corrected): 2
+
+
+SP SP1[1] <lab_3_lib:cell_3:schematic>   freq=(0 Hz->10 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.62 seconds.
+

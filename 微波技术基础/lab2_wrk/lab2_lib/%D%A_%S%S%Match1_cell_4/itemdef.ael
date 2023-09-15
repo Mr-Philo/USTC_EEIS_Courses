@@ -1,0 +1,11 @@
+create_item("DA_SSMatch1_cell_4","Single-Stub Match","DA_SSMatch",16,-1,"SSMatch.bmp","Component Parameters",NULL,"%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","DA_SSMatch1_cell_4","%t%b%r%38?%:\n%39?all_parm%A%:%30?%s%:%k%?[%1i]%;=%s%;%;%;%e%e%;","SSMatch",3,NULL,0,
+create_parm("Subst","Substrate Instance Name",262144,"StringAndReferenceFormSet",-2,prm("StringAndReference","\"MSub1\"")),
+create_parm("F","Center Frequency",65536,"StdFormSet",0,prm("StdForm","1 GHz")),
+create_parm("Zin","Desired Input Impedance",524288,"StdFormSet",1,prm("StdForm","50 Ohm")),
+create_parm("Zload","Load Impedance to Match",524288,"StdFormSet",1,prm("StdForm","100 Ohm")),
+create_parm("Zstub","Characteristic Impedance of stub line",65536,"StdFormSet",1,prm("StdForm","50 Ohm")),
+create_parm("Zline","Characteristic Impedance of line between load and stub ",65536,"StdFormSet",1,prm("StdForm","50 Ohm")),
+create_parm("Zfeed","Characteristic Impedance of Line Connected to Port 1 or 2",66048,"StdFormSet",1,prm("StdForm","50 Ohm")),
+create_parm("StubType","Stub Type",134656,"DA_StubTypeFormSet",-1,prm("DA_OpenStubForm")),
+create_parm("NetType","Network Type (source to load)",134656,"DA_SSNetTypeFormSet",-1,prm("DA_SSAutoNetForm")),
+create_parm("Delta","Length Added to Stub for Tuning",65536,"StdFormSet",5,prm("StdForm","0")));
