@@ -1,0 +1,9 @@
+[submodule "Python与深度学习实践/项目一：Python网络爬虫"]
+	path = Python与深度学习实践/项目一：Python网络爬虫
+	url = git@github.com:Mr-Philo/Py_dl_course2022_HW1.git
+[submodule "Python与深度学习实践/项目二：ResNet训练Tiny-ImageNet"]
+	path = Python与深度学习实践/项目二：ResNet训练Tiny-ImageNet
+	url = git@github.com:Mr-Philo/Py_dl_course2022_HW2.git
+[submodule "Python与深度学习实践/项目三：近两年深度学习顶会论文复现"]
+	path = Python与深度学习实践/项目三：近两年深度学习顶会论文复现
+	url = git@github.com:Mr-Philo/Py_dl_course2022_HW3.git
